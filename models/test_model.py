@@ -29,7 +29,6 @@ class TestModel(BaseModel):
         self.fake_C = None
         self.real_C = None
 
-
     def set_input(self, input):
         # we need to use single_dataset mode
         input_A = input['A']
